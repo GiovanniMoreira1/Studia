@@ -1,4 +1,4 @@
-"""Schemas (formatos de dados) do fluxo de autenticação.
+"""Schemas do fluxo de autenticação.
 
 Um schema descreve o "contrato" do endpoint: quais campos entram na requisição
 e quais campos saem na resposta. O Pydantic valida automaticamente os dados
