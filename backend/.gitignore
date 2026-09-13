@@ -1,0 +1,8 @@
+# Segredos locais (chave do Firebase) — nunca subir para o git
+.env
+
+# Ambiente virtual e caches do Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

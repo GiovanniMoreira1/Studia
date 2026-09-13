@@ -1,0 +1,12 @@
+# Framework web que expõe os endpoints da API
+fastapi==0.141.1
+# Servidor ASGI que roda a aplicação FastAPI
+uvicorn[standard]==0.52.4
+# Validação de dados (já vem com o FastAPI); [email] adiciona o tipo EmailStr
+pydantic[email]==2.13.5
+# Cliente HTTP usado para chamar a REST API do Firebase Authentication
+httpx==0.28.1
+# Carrega variáveis do arquivo .env (chave do Firebase etc.)
+python-dotenv==1.2.3
+# Testes automatizados
+pytest==9.1.1
